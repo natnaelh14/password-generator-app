@@ -1,4 +1,4 @@
-Project Name: Password Generator Application
+Project Name: Password Generator Application / 
 GitHub Link: https://natnaelh14.github.io/password-generator-app/
 
 In this project, i created a password generator application. Instead of using propmt() and alert() to interact with the user, I created input elements
