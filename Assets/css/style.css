@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: black;
 }
 
 .wrapper {
@@ -27,13 +27,12 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: white;
+  font-size: 30px;;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  border-width: 1px;
+  background-color: hsl(158, 48%, 49%);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
   font-size: 18px;
@@ -46,7 +45,6 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
   height: 2px;
 }
 
@@ -62,7 +60,6 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
   height: 2px;
 }
 
@@ -78,7 +75,7 @@ header {
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: white;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -90,8 +87,8 @@ header {
 
 button[disabled] {
   cursor: default;
-  background: #c0c7cf;
 }
+
 
 .float-right {
   float: right;
@@ -112,8 +109,6 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
   resize: none;
   overflow: hidden;
 }
@@ -131,6 +126,15 @@ p {
 
 .number-form {
   display: inline-block;
+}
+
+form {
+  background-color: hsl(158, 48%, 49%);
+}
+
+textarea {
+  background-color: black;
+  color: white;
 }
 
 @media (max-width: 690px) {
