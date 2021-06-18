@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Password Generator</title>
+  <title>🔑 Password Generator</title>
   <link rel="stylesheet" href="./Assets/css/style.css" />
 </head>
 
@@ -18,12 +18,15 @@
       <div class="card-header">
         <h2>Generate a Password</h2>
       </div>
+      <!-- This is the number input area. -->
       <form>
-        <label for="tentacles" class='number-form' >Please enter the length of password (8-128):</label>
-        <input type="number" id="user-number" name='tentacles' min="8" max="128" value='' >
+        <label for="tentacles" class='number-form'>Please enter the length of password (8-128):</label>
+        <input type="number" id="user-number" name='tentacles' min="8" max="128" value=''>
       </form>
+      <!-- if there is an error, it will be displayed here. -->
       <p id='error-01'></p>
       <p id='error-02'></p>
+      <!-- fieldset element encloses the checkboxes. -->
       <fieldset>
         <label>
           <input class="checkbox-01" type="checkbox" name="number" value="number" />
@@ -50,6 +53,7 @@
         <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
       </div>
       <div class="card-footer">
+        <!-- create a button -->
         <button id="generate" class="btn">Generate Password</button>
         <button id="reset" class="btn">Reset</button>
         <button id="copy" class="btn">Copy</button>
@@ -60,6 +64,3 @@
 </body>
 
 </html>
-
-
-
