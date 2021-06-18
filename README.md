@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Project Name: Password Generator Application
 GitHub Link: https://natnaelh14.github.io/password-generator-app/
 
