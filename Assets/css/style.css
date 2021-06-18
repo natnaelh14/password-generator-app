@@ -147,6 +147,13 @@ textarea {
   #password {
     font-size: 1rem;
   }
+  
+  h2 {
+    text-align: center;
+  }
+  form {
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
